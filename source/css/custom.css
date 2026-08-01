@@ -1,0 +1,31 @@
+﻿/* === 冷漠博客自定义样式 === */
+
+/* 文章内图片居中自适应 */
+#article-container img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 8px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Mermaid 流程图居中 */
+.mermaid, .mermaid svg {
+  display: block !important;
+  margin: 2em auto !important;
+  text-align: center;
+}
+
+/* 文章卡片封面图固定比例+圆角 */
+.recent-post-item .post_cover img {
+  object-fit: cover !important;
+  border-radius: 12px !important;
+}
+
+/* 文章内容图片可点击放大 */
+#article-container img {
+  cursor: zoom-in;
+}

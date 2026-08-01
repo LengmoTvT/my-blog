@@ -382,7 +382,13 @@ series:
 abcjs:
   enable: false
 mermaid:
-  enable: false
+  enable: true
+  code_write: true
+  theme:
+    light: default
+    dark: dark
+  open_in_new_tab: true
+  zoom_pan: true
 chartjs:
   enable: false
 
@@ -404,7 +410,9 @@ snackbar:
 instantpage: false
 
 lazyload:
-  enable: false
+  enable: true
+  native: true
+  field: site
 
 pwa:
   enable: false
@@ -420,7 +428,7 @@ css_prefix: true
 
 inject:
   head:
-  bottom:
+    - <link rel='stylesheet' href='/css/custom.css'>  bottom:
 
 CDN:
   internal_provider: local
