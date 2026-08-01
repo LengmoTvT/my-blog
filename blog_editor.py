@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 ============================================
@@ -16,13 +16,12 @@ from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QLabel, QLineEdit, QTextEdit, QTextBrowser, QPushButton, QListWidget,
     QListWidgetItem, QSplitter, QDialog, QFormLayout, QDateTimeEdit,
-    QFileDialog, QMessageBox, QToolBar, QAction, QStatusBar, QInputDialog,
-    QMenu, QShortcut, QTabWidget, QScrollArea, QGridLayout, QGroupBox,
-    QComboBox, QSpinBox, QTextOption
+    QFileDialog, QMessageBox, QToolBar, QStatusBar, QInputDialog,
+    QMenu, QShortcut, QTabWidget
 )
 from PyQt5.QtCore import Qt, QTimer, QDateTime, QThread, pyqtSignal, QSize
 from PyQt5.QtGui import (
-    QFont, QIcon, QTextCursor, QKeySequence, QPixmap, QImage, QColor
+    QAction, QFont, QIcon, QTextCursor, QKeySequence, QPixmap, QImage, QColor
 )
 
 try:
