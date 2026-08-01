@@ -43,9 +43,9 @@ avatar:
   effect: false
 
 disable_top_img: false
-index_img:
+index_img: /img/banner.jpg
 default_top_img:
-archive_img:
+archive_img: /img/banner.jpg
 tag_img:
 tag_per_img:
 category_img:
@@ -71,11 +71,11 @@ error_404:
   background: /img/error-page.png
 
 # ---------- 首页设置 ----------
-index_site_info_top:
-index_top_img_height:
+index_site_info_top: center
+index_top_img_height: 300em
 
 subtitle:
-  enable: true
+  enable: false
   effect: true
   typed_option:
   source: false
@@ -140,7 +140,7 @@ aside:
   hide: false
   button: true
   mobile: true
-  position: right
+  position: left
   display:
     archive: true
     tag: true
