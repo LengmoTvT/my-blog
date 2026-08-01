@@ -13,7 +13,7 @@ import sys, os, re, shutil, subprocess, webbrowser, datetime
 from pathlib import Path
 
 from PyQt5.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
+    QAction, QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QLabel, QLineEdit, QTextEdit, QTextBrowser, QPushButton, QListWidget,
     QListWidgetItem, QSplitter, QDialog, QFormLayout, QDateTimeEdit,
     QFileDialog, QMessageBox, QToolBar, QStatusBar, QInputDialog,
@@ -21,7 +21,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt, QTimer, QDateTime, QThread, pyqtSignal, QSize
 from PyQt5.QtGui import (
-    QAction, QFont, QIcon, QTextCursor, QKeySequence, QPixmap, QImage, QColor
+    QFont, QIcon, QTextCursor, QKeySequence, QPixmap, QImage, QColor
 )
 
 try:
