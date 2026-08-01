@@ -1,15 +1,32 @@
-﻿/* === 冷漠博客自定义样式 === */
+/* === 冷漠博客自定义样式 === */
 
-/* 文章内图片居中自适应 */
-#article-container img {
+/* --- 文章内联图片：居中 + 自适应 + 圆角 + 点击放大 --- */
+#article-container img.article-image,
+#article-container img:not(.inline-img):not(.mermaid) {
   display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin: 1.5em auto !important;
   max-width: 100% !important;
+  width: auto !important;
   height: auto !important;
-  border-radius: 8px;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#article-container img.article-image:hover,
+#article-container img:not(.inline-img):not(.mermaid):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* 包裹图片的 <a> 链接：块级居中，不显示下划线 */
+#article-container a.article-image-link {
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  border: none !important;
+  background: none !important;
 }
 
 /* Mermaid 流程图居中 */
@@ -23,9 +40,4 @@
 .recent-post-item .post_cover img {
   object-fit: cover !important;
   border-radius: 12px !important;
-}
-
-/* 文章内容图片可点击放大 */
-#article-container img {
-  cursor: zoom-in;
 }
