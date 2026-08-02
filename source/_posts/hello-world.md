@@ -12,6 +12,11 @@ description: 这是冷漠的第一篇博客，介绍本站搭建过程。
 
 ## 你好，世界
 
+
+![img_20260802232240.png](img_20260802232240.png)
+
+
+
 欢迎来到**冷漠的博客**。
 
 本站使用 [Hexo](https://hexo.io/) + [Butterfly](https://butterfly.js.org/) 主题搭建，由 Vercel 部署。
